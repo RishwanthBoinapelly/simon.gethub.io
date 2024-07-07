@@ -61,7 +61,7 @@ function checkSolution(currentLevel)
 }
 function playSound(currentColor)
 {
-    var audio=new Audio("./sounds/"+currentColor+".mp3");
+    var audio=new Audio(currentColor+".mp3");
     audio.play();
 }
 function playAnimation(currentColor)
